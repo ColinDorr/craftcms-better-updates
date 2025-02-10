@@ -21,9 +21,9 @@ use colindorr\craftcmsbetterupdates\services\TrackUpdatesService;
  */
 class UpdateTracker extends Plugin
 {
-    public static $plugin_handle = "better-updates";
-    public $hasCpSettings = true;
-    public $schemaVersion = '1.0.0';
+    public static string $plugin_handle = "better-updates";
+    public bool $hasCpSettings = true;
+    public string $schemaVersion = '2.0.0';
     
     public function init(): void
     {
