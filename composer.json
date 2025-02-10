@@ -1,0 +1,51 @@
+{
+  "name": "colin-dorr/craftcms-better-updates",
+  "description": "This Craft CMS plugin helps keep track of updates and license statuses.",
+  "type": "craft-plugin",
+  "keywords": ["some", "keywords", "here"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Colin Dorr",
+      "homepage": "https://github.com/ColinDorr"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/ColinDorr/craftcms-better-updates/issues?state=open",
+    "source": "https://github.com/ColinDorr/craftcms-better-updates",
+    "docs": "https://github.com/ColinDorr/craftcms-better-updates/blob/main/README.md"
+  },
+  "require": {
+    "craftcms/cms": "^3.7 || ^4.4 || ^5.0",
+    "php": "^7.2.5 || ^8.0",
+    "symfony/yaml": "^4.4 || ^5.4"
+  },
+  "require-dev": {
+    "craftcms/ecs": "dev-main",
+    "craftcms/phpstan": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "colindorr\\craftcmsbetterupdates\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "better-updates",
+    "name": "Update Tracker",
+    "developer": "ColinDorr",
+    "documentationUrl": "",
+    "class": "colindorr\\craftcmsbetterupdates\\UpdateTracker"
+  },
+  "scripts": {
+    "check-cs": "ecs check --ansi",
+    "fix-cs": "ecs check --ansi --fix",
+    "phpstan": "phpstan --memory-limit=1G"
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  }
+}
