@@ -60,7 +60,8 @@ class EmailServices extends Component
             }
 
             // Display error in the control panel (if relevant)
-            throw new \yii\base\Exception("No valid email provided for update notifications.");
+            // throw new \yii\base\Exception("No valid email provided for update notifications.");
+            return;
         }
 
         $emailArray = array_map('trim', explode(',', $email));
