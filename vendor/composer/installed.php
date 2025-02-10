@@ -3,7 +3,7 @@
         'name' => 'colin-dorr/craftcms-better-updates',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'bc0edac5cc20deffa9eb778b6d81ef42ca020821',
+        'reference' => 'c2a3d48eb35391eed65100ed48df0fb9b01dadaf',
         'type' => 'craft-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -64,7 +64,7 @@
         'colin-dorr/craftcms-better-updates' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'bc0edac5cc20deffa9eb778b6d81ef42ca020821',
+            'reference' => 'c2a3d48eb35391eed65100ed48df0fb9b01dadaf',
             'type' => 'craft-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

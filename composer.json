@@ -16,8 +16,8 @@
     "docs": "https://github.com/ColinDorr/craftcms-better-updates/blob/main/README.md"
   },
   "require": {
-    "craftcms/cms": "^3.0 < 4.0",
-    "php": "^7.2.5 || ^8.0",
+    "craftcms/cms": "^4.4 || ^5.0",
+    "php": "^8.0",
     "symfony/yaml": "^4.4 || ^5.4"
   },
   "require-dev": {
